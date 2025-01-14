@@ -219,7 +219,7 @@ fi
 # Determining the value for DOCKER_FROM
 ###
 if [ -z "$DOCKER_FROM" ]; then
-  DOCKER_FROM="docker.io/ubuntu:23.10"
+  DOCKER_FROM="docker.io/ubuntu:22.04"
 fi
 
 ###
